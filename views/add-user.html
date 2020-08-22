@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User List</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <ul class="list-items">
+        <li class="item"><a href="/">Usuários</a></li>
+        <li class="item"><a href="/admin/add-user.html">Add Usuário</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="/admin/add-user.html" method="POST">
+      <div class="form-control">
+        <label for="user">Nome do Usuário</label>
+        <input type="text" name="userName" id="user">
+        <button type="submit">Adicionar</button>
+      </div>
+    </form>
+  </main>
+  
+  
+</body>
+</html>
